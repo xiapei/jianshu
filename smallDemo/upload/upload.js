@@ -85,7 +85,7 @@ Page({
         that.setData({
           img: tempFilePaths
         })      // 这里采取的是一次性添加，但是如果不仅要九张，很明显就需要上面那种方法了
-
+        that.startUpload();
       }
     })
   },
